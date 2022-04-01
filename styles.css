@@ -12,6 +12,7 @@ body{
     color: tomato;
     font-weight: bolder; 
     border-bottom: 10px dotted black;
+    display: inline;
       
 }
 
