@@ -10,8 +10,8 @@ body{
 
 header{
     position: sticky;
-    top: 0;
-    list-style: none;
+    top: 0px;
+    list-style-type: none;
     display: inline;
 }
 
