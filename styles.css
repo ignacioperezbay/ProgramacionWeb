@@ -27,5 +27,14 @@ body{
     size: 200px;
 }
 
+#LogoInstagram {
+    size: 10%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    
+}
+
 
 
