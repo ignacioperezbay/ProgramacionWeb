@@ -8,6 +8,13 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    list-style: none;
+    display: inline;
+}
+
 #LionelMessi {
     display: inline-block;
     color: tomato;
