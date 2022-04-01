@@ -16,7 +16,7 @@ header{
 }
 
 #LionelMessi {
-    display: inline-block;
+    display: inline;
     color: tomato;
     font-weight: bolder; 
     border-bottom: 5px dotted black;
