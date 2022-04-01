@@ -25,13 +25,14 @@ body{
 
 #BalonDeOro {
     size: 200px;
+    width: 300px;
 }
 
 #LogoInstagram {
     position: fixed;
-    bottom: 0;
-    right: 0;
-    size: 5%;
+    bottom: 15px;
+    right: 15px;
+    width: 35px;
 
 }
 
