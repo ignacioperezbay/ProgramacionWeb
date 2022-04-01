@@ -1,4 +1,4 @@
-h2 {
+#DistincionesIndividuales {
     color: blue;
     font-weight: bold;
 }
@@ -8,9 +8,11 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#Título-Principal {
+#LionelMessi {
     color: tomato;
-    font-weight: bolder;   
+    font-weight: bolder; 
+    border-bottom: 10px dotted black;
+      
 }
 
 #Messi1 {
