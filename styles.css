@@ -28,11 +28,10 @@ body{
 }
 
 #LogoInstagram {
-    size: 10px;
     position: fixed;
-    bottom: 30px;
-    right: 20px;
-    
+    bottom: 0;
+    right: 0;
+    size: 5%;
 
 }
 
