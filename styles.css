@@ -9,9 +9,10 @@ body{
 }
 
 #LionelMessi {
+    display: inline-block;
     color: tomato;
     font-weight: bolder; 
-    border-bottom: 10px dashed black;
+    border-bottom: 10px dotted black;
     padding: 25px;      
 }
 
