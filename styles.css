@@ -4,14 +4,21 @@
 }
 
 body{
-    background-color: rgba(76, 175, 179, 0.623);
+    background-color: rgba(0, 0, 0, 0.623);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 header{
     position: sticky;
     top: 0px;
+    background-color: grey;
+}
+
+menu{
     list-style-type: none;
+}
+
+menu > li >{
     display: inline;
 }
 
