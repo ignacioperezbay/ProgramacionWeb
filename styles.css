@@ -52,5 +52,13 @@ menu > li {
 
 }
 
+#Col-Izq{
+    width: 50%;
+    float: left;
+}
 
+#Col-Der {
+    width: 50%;
+    float: right;
+}
 
