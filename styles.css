@@ -12,14 +12,16 @@ header{
     position: sticky;
     top: 0px;
     background-color: grey;
+    position: -webkit-sticky;
 }
 
 menu{
     list-style-type: none;
 }
 
-menu > a > li {
+menu > li {
     display: inline;
+    padding: 10px;
 }
 
 #LionelMessi {
