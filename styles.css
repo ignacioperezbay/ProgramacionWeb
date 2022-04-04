@@ -13,6 +13,7 @@ header{
     top: 0px;
     background-color: grey;
     position: -webkit-sticky;
+    padding: 2px;
 }
 
 menu{
@@ -51,14 +52,13 @@ menu > li {
     width: 35px;
 
 }
-
-#Col-Izq{
-    width: 50%;
-    float: left;
+.col {
+    border: 10px solid blue;
 }
 
-#Col-Der {
-    width: 50%;
-    float: right;
+
+footer{
+    position: fixed;
+    bottom: 0px;
 }
 
