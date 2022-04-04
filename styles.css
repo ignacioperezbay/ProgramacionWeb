@@ -25,11 +25,11 @@ menu > li {
 }
 
 #LionelMessi {
-    display: inline;
+    display: block;
     color: tomato;
     font-weight: bolder; 
-    border-bottom: 5px dotted black;
-    margin-bottom: 25px;      
+    border-bottom: 5px double black;
+    padding-bottom: 20px;      
 }
 
 #Messi1 {
