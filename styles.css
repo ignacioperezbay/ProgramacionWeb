@@ -43,6 +43,10 @@ menu > li {
 #BalonDeOro {
     size: 200px;
     width: 300px;
+    margin-left: 40px;
+    display: flex;
+    
+
 }
 
 #LogoInstagram {
