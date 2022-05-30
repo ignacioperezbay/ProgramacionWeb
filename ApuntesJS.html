@@ -7,7 +7,20 @@
     <title>IMC</title>
 </head>
 <body>
-    <script>
+   <label for="name">Tu Nombre</label>
+   <input type="text" name="name" id="nombreIngresado">
+   <label for="apellido">Tu Apellido</label>
+   <input type="text" name="apellido" id="apellidoIngresado">
+   <label for="edad">Tu Edad</label>
+   <input type="number" name="edad" id="edadIngresada">
+   <label for="sexo">Sexo:</label>
+   <input type="text" name="sexo" id="sexoIngresado"><br>
+   <input type="button" value="Guardar" onclick="guardarData()">
+   <script src="codigo.js" oninput="guardarData()">
+
+        
+        
+        
         /*
         let altura;
         let peso;
@@ -138,7 +151,7 @@ mostrar(parOImpar(51))
 function notaFinal(nota1, nota2, nota3, cantidad){
     return (nota1 + nota2 + nota3) / cantidad
 }
-*/
+
 
 let profesor = ["Esteban", 29, "Profesor", "Otra Cosa"] //Los tengo almacenados a todos dentro de lo mismo.
 for (let i = 0; i < profesor.length; i++) { //i++ es el valor de aumento que va a tener i, significa que i = i+1
@@ -192,7 +205,12 @@ if (letras.includes("a")){
 }
 
 console.log(letras.indexOf("a"))
+*/
+
+
 
     </script>
+
+    
 </body>
 </html>
