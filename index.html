@@ -4,67 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Lionel Messi</title>
+    <title>LearnFinance Web</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/710848bef7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img id="TeamMessi" src="Imagenes/pngwing.com.png" alt="Logo Team Messi" width="4%">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link 2</a>
-              </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo"><i class="fa-solid fa-litecoin-sign"></i>eFi</a> <!--Diseñar Logo-->
+            <div class="navbar__toggle" id="mobile-menu"></div>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
         </div>
-      </nav>
-    
-    
-    <h1 id="LionelMessi">Lionel Andrés Messi</h1>
-    <div class="container">
-        <div class="row">
-          <div class="col">
-            <br>
-            <img id="Messi1" src="Imagenes/Messi1.jpeg" alt="Messi Bombonera">
-          </div>
-          <div class="col">
-            <h2 id="DistincionesIndividuales">Distinciones Individuales</h2>
-            <ul>
-                <li>7 Balones de Oro <i>(Máximo Ganador)</i></li>
-                <li>6 Botas de Oro <i>(Máximo Ganador)</i></li>
-                <li>Balón de Oro Brasil 2014</li>
-                <li>Once Histórico Balón de Oro</li>
-                <li>8 Pichichis de la Liga Española <i>(Máximo Ganador)</i></li>
-            </ul>
-            <img id="BalonDeOro" src="Imagenes/BalonDeOro.jpeg" alt="BalonDeOro">
-            <a href="https://www.instagram.com/leomessi/"><img src="Imagenes/instagram-brands.svg" id="LogoInstagram" alt="Instagram-Messi" ></a>
-          </div>
-          <div class="col">
-            Column
-          </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="index.html" class="navbar__links">Home</a>
+            </li>
+            <li class="navbar__item">
+                <a href="recursos.html" class="navbar__links">Resources</a>
+            </li>
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">About Us</a>
+            </li>
+            <li class="navbar__btn">
+                <a href="signup.html" class="button">Sign Up</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--MAIN SECTION-->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>LearnFinance</h1>
+                <h2>Education</h2>
+                <p>Learn at your own pace.</p>
+                <button class="main__btn"><a href="recursos.html">Get Started</a></button>
+            </div>
+            <div class="main__img--container">
+                <img src="Images/image1.svg" alt="Dollars" id="main__img">
+            </div>
         </div>
-      </div>
-    
-    
+    </div>
+
+    <!--SECTION 2-->
+
+    <div class="services">
+        <h1>Grow your wealth with LeFi</h1>
+        <div class="services__container">
+            <div class="services__card">
+                <h2>Experience Bliss</h2>
+                <p>Free Financial Resources</p>
+                <button>Get Started</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--Footer-->
 <footer>
-Legales
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wraper">
+                <div class="footer__link--items">
+                    <h2>Contact Us</h2>
+                    <a href="WorkInProgress.html">Contact</a>
+                    <a href="support.html">Support</a>
+                    <a href="WorkInProgress.html">Work With Us</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="https://www.instagram.com/">Instagram</a>
+                    <a href="https://twitter.com/">Twitter</a>
+                    <a href="https://www.youtube.com/">YouTube</a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer_logo">
+                    <a href="index.html" id="footer__logo"><i class="fa-solid fa-litecoin-sign">eFi</i></a>
+                </div>
+                <p class="website__rights">© LearnFinance 2022. All Rights Reserved</p>
+                <div class="social__icons">
+                    <a href="https://www.instagram.com/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 
+<script src="main.js"></script>
 </body>
 </html>
