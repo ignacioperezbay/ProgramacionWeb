@@ -232,6 +232,11 @@
   -moz-text-fill-color: transparent;
 }
 
+.main__content a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .main__content h2 {
   font-size: 4rem;
   background-color: #216bff;
@@ -307,6 +312,11 @@
   width: 80%;
 }
 
+#Error{
+  width: 50%;
+  display: inline;
+}
+
 /* Mobile */
 
 @media screen and (max-width: 768px) {
@@ -329,6 +339,8 @@
     margin-bottom: 4rem;
     width: 100%;
   }
+
+
 
   .main__content h1 {
     font-size: 2.5rem;
@@ -401,6 +413,11 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.services__container a{
+  text-decoration: none;
+  color: #fff;
 }
 
 .services__card {
