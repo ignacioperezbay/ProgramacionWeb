@@ -388,6 +388,13 @@
   height: 100vh;
 }
 
+#services__description{
+  color: #fff;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 22px;
+}
+
 .services h1 {
   background-color: #ff8177;
   background-image: linear-gradient(
@@ -400,7 +407,7 @@
     #01675d 100%
   );
   background-size: 100%;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   font-size: 2.5rem;
   background-clip: border-box;
   -webkit-background-clip: text;
